@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Connect Nepal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Connect Nepal</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="club.html">Clubs</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="join.html" class="btn-primary">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <h1>Photo Gallery</h1>
+            <p>Explore our cultural events and activities through photos</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <!-- Gallery Filter -->
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="cultural">Cultural</button>
+                <button class="filter-btn" data-filter="workshops">Workshops</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Event Photos -->
+                <div class="gallery-item" data-category="events">
+                    <img src="images/kumari.jpg" alt="Cultural Festival 2024">
+                    <div class="gallery-overlay">
+                        <h3>Cultural Festival 2024</h3>
+                        <p>March 15, 2024</p>
+                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="cultural">
+                    <img src="images/kumari.jpg" alt="Traditional Dance Performance">
+                    <div class="gallery-overlay">
+                        <h3>Traditional Dance</h3>
+                        <p>February 28, 2024</p>
+                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="workshops">
+                    <img src="images/kumari.jpg" alt="Language Workshop">
+                    <div class="gallery-overlay">
+                        <h3>Language Workshop</h3>
+                        <p>February 20, 2024</p>
+                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <img src="images/kumari.jpg" alt="Food Festival">
+                    <div class="gallery-overlay">
+                        <h3>International Food Festival</h3>
+                        <p>February 15, 2024</p>
+                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="cultural">
+                    <img src="images/kumari.jpg" alt="Cultural Exhibition">
+                    <div class="gallery-overlay">
+                        <h3>Cultural Exhibition</h3>
+                        <p>February 10, 2024</p>
+                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="workshops">
+                    <img src="images/kumari.jpg" alt="Art Workshop">
+                    <div class="gallery-overlay">
+                        <h3>Art Workshop</h3>
+                        <p>February 5, 2024</p>
+                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more">
+                <button class="btn-primary">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="">
+            <div class="lightbox-caption">
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Connect Nepal</h3>
+                <p>Connecting international students through cultural exchange and community engagement in Nepal.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Connect Nepal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle Button -->
+    <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html> 
